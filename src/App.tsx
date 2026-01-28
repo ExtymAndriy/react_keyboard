@@ -30,7 +30,7 @@ export class App extends React.Component<{}, AppState> {
 
     return (
       <div className="App">
-        <p className="App__message">[{message}]</p>
+        <p className="App__message">{message}</p>
       </div>
     );
   }
